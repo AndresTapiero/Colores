@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Colores</string>
     <string name="Saludo">Colores primarios</string>
+    <string name="combinaciones">Combinaciones: \n1) Amarillo y Azul = Verde \n2) Amarillo y Rojo = Naranja \n3) Azul y Rojo = Violeta
+    </string>
 </resources>
