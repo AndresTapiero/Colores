@@ -8,7 +8,7 @@ import android.widget.CheckBox;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    int mA = 0, mB=0, mC=0;
+    int mA = 0, mB = 0, mC = 0;
     private ImageView imageV;
     private CheckBox bAmarillo, bAzul, bRojo;
 
@@ -63,7 +63,10 @@ public class MainActivity extends AppCompatActivity {
 
         if (mA == 0 && mB == 0 && mC == 0) {
             imageV.setBackgroundColor(Color.TRANSPARENT);
+        } else if (mA == 1 && mB == 1 && mC == 1) {
+            imageV.setBackgroundResource(R.color.colorBlack);
         } else if (mA == 1 && mB == 1) {
+
             imageV.setBackgroundResource(R.color.colorGreen);
         } else if (mA == 1 && mC == 1) {
             imageV.setBackgroundResource(R.color.colorOrange);
@@ -75,7 +78,6 @@ public class MainActivity extends AppCompatActivity {
             imageV.setBackgroundResource(R.color.colorAzul);
         } else if (mC == 1) {
             imageV.setBackgroundResource(R.color.colorRojo);
-
         }
     }
 }

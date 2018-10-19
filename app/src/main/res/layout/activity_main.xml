@@ -24,13 +24,13 @@
         android:layout_below="@id/title"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="77dp"
-        android:layout_marginLeft="77dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="5dp"
         android:text="@string/combinaciones"
         android:textAppearance="@style/TextAppearance.AppCompat.Menu"
         android:textSize="20dp"
-        android:lineSpacingExtra="5dp"
         tools:ignore="RtlCompat" />
 
     <CheckBox
@@ -46,8 +46,7 @@
         android:layout_marginTop="219dp"
         android:onClick="Onclick"
         android:text="Amarillo"
-
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
     <CheckBox
         android:id="@+id/checkBoxAzul"
@@ -86,9 +85,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="85dp"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="277dp"
+
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="285dp"
         android:padding="5dp" />
 
 
